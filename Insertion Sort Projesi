@@ -1,0 +1,24 @@
+[22,27,16,2,18,6] --> Insertion Sort
+------------------------------------
+Soru-1) Insertion Sort türüne göre aşamaları: 
+  1- [2-27-16-22-18-6]
+  2- [2-6-16-22-18-27]
+  3- [2-6-16-18-22-27]
+
+Soru-2) Big-O Notation:
+  Dizideki "n" sayıda eleman için; n^2+n/2 işleminden "O(n^2)" olacaktır.
+  
+Soru-3) Time Complecxity: Average Case - Worst Case - Best Case
+  Average Case: Aranan sayının dizinin en başında olması durumuna göre -----> n
+  Worst Case: Aranan sayının dizinin en sonunda olmasına durumuna göre -----> n^2
+  Average Case: Aranan sayının ortada olması durumuna göre -----------------> n^2
+  
+Soru-4) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
+  18 sayısı, arama yapılan dizinin ortasında olduğundan "Average Case" kapsamına girmektedir.
+  
+ [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre il 4 adımı:
+ 
+  1- [2-3-5-8-7-9-4-15-6]
+  2- [2-3-4-8-7-9-5-15-6]
+  3- [2-3-4-5-7-9-8-15-6]
+  4- [2-3-4-5-6-9-8-15-7]
